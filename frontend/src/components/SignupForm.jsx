@@ -56,9 +56,8 @@ export default function SignupForm() {
     };
 
     const googleSignup = () => {
-        window.location.href =
-            "http://localhost:8000/auth/google";
-    };
+    window.location.href = "https://teamspace-k6wa.onrender.com/auth/google";
+};
 
     return (
         <div className="auth-page">

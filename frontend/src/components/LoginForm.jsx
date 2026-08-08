@@ -55,10 +55,9 @@ export default function LoginForm() {
             setLoading(false);
         }
     };
-
-    const googleLogin = () => {
-        window.location.href = "http://localhost:8000/auth/google";
-    };
+const googleLogin = () => {
+    window.location.href = "https://teamspace-k6wa.onrender.com/auth/google";
+};
 
     return (
         <div className="auth-page">
